@@ -78,3 +78,11 @@ docker ps nos da el id del contenedor
 docker inspect 2cf0397045da
 
 de aca obtengo la IPAdress 172.22.0.2
+
+
+Instalacion de Libreria postgres
+
+npm install pg
+
+
+
