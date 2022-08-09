@@ -85,4 +85,8 @@ Instalacion de Libreria postgres
 npm install pg
 
 
+Para leer .env se debe descargar
+npm i dotenv
+
+
 
