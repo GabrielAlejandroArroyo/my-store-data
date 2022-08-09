@@ -26,5 +26,71 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "b0297f46-2e51-4b98-9690-c6e0cbbbe080",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Create User",
+    "url": "{{HostEndpoint}}/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-09T23:10:44.113Z",
+    "modified": "2022-08-09T23:14:01.884Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"maosa@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "2db8990a-8141-4e5e-80ee-e100b4e7b447",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Get User",
+    "url": "{{HostEndpoint}}/users/5",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-09T23:15:24.525Z",
+    "modified": "2022-08-09T23:23:54.525Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "7c039289-3a2c-4ce6-a64f-70cc5c6a26b8",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Update User",
+    "url": "{{HostEndpoint}}/users/3",
+    "method": "PATCH",
+    "sortNum": 30000,
+    "created": "2022-08-09T23:17:15.402Z",
+    "modified": "2022-08-09T23:20:53.502Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"maosa@gmail.com\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "22f8246b-35cd-4307-9a42-c3a7b3b1726a",
+    "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
+    "containerId": "",
+    "name": "Get User Copy",
+    "url": "{{HostEndpoint}}/users/5",
+    "method": "DELETE",
+    "sortNum": 17500,
+    "created": "2022-08-09T23:22:55.894Z",
+    "modified": "2022-08-09T23:24:01.635Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

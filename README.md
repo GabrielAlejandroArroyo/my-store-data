@@ -89,4 +89,26 @@ Para leer .env se debe descargar
 npm i dotenv
 
 
+Instalacion ORM
+
+Sequelize para JavaScript y TypeORM para TypeScript.
+
+Sequelize
+
+
+Instalacion de sequelize
+https://sequelize.org/docs/v6/getting-started/
+
+npm install --save sequelize
+
+Instalacion del driver
+npm install --save pg-hstore
+
+
+
+
+
+
+
+
 
