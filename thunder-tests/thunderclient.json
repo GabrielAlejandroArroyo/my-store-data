@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-09T23:10:44.113Z",
-    "modified": "2022-08-09T23:14:01.884Z",
+    "modified": "2022-08-10T00:46:35.525Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"maosa@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"maosa1@gmail.com\",\n  \"password\": \"12345678\"\n}",
       "form": []
     },
     "tests": []
@@ -51,11 +51,11 @@
     "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
     "containerId": "",
     "name": "Get User",
-    "url": "{{HostEndpoint}}/users/5",
+    "url": "{{HostEndpoint}}/users/2",
     "method": "GET",
     "sortNum": 15000,
     "created": "2022-08-09T23:15:24.525Z",
-    "modified": "2022-08-09T23:23:54.525Z",
+    "modified": "2022-08-10T00:47:00.843Z",
     "headers": [],
     "params": [],
     "tests": []
