@@ -106,7 +106,32 @@ npm install --save pg-hstore
 
 
 
+Agregando una segunda base de datos
 
+Agregamos en docker compose una segunda base
+  mysql:
+    image: mysql:5
+    environment:
+      - MYSQL_DATABASE=my_store
+      - MYSQL_USER=
+      - MYSQL_ROOT_PASSWORD=admin123
+      - MYSQL_PORT=3306
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin123
+      - PMA_HOST=mysql
+    ports:
+      - 6080:80
+
+Instalacion del driver de mysql
+
+npm i --save mysql2
 
 
 
