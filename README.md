@@ -134,6 +134,13 @@ Instalacion del driver de mysql
 npm i --save mysql2
 
 
+Migrciones con sequelize
 
+npm i sequelize-cli --save-dev
+
+
+Agregar archivo de configuracion
+
+.sequelizerc
 
 
