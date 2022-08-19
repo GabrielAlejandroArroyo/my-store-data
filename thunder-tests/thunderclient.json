@@ -36,12 +36,12 @@
     "method": "POST",
     "sortNum": 20000,
     "created": "2022-08-09T23:10:44.113Z",
-    "modified": "2022-08-10T00:57:37.316Z",
+    "modified": "2022-08-19T18:10:57.797Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"email\": \"maosa2@gmail.com\",\n  \"password\": \"12345678\"\n}",
+      "raw": "{\n  \"email\": \"GabrielArroyo32@gmail.com\",\n  \"password\": \"12345678\",\n  \"role\":\"customer\"\n}",
       "form": []
     },
     "tests": []
@@ -51,11 +51,11 @@
     "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
     "containerId": "",
     "name": "Get User",
-    "url": "{{HostEndpoint}}/users/2",
+    "url": "{{HostEndpoint}}/users/1",
     "method": "GET",
     "sortNum": 15000,
     "created": "2022-08-09T23:15:24.525Z",
-    "modified": "2022-08-10T00:47:00.843Z",
+    "modified": "2022-08-19T13:31:32.254Z",
     "headers": [],
     "params": [],
     "tests": []
@@ -83,7 +83,7 @@
     "_id": "22f8246b-35cd-4307-9a42-c3a7b3b1726a",
     "colId": "ffaf77c1-beb3-4104-a5d0-1e4cf39f857d",
     "containerId": "",
-    "name": "Get User Copy",
+    "name": "Delete User",
     "url": "{{HostEndpoint}}/users/5",
     "method": "DELETE",
     "sortNum": 17500,
@@ -91,6 +91,86 @@
     "modified": "2022-08-09T23:24:01.635Z",
     "headers": [],
     "params": [],
+    "tests": []
+  },
+  {
+    "_id": "e9bbf5e6-b373-4549-8daa-477b9bf19b44",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "GET Customers",
+    "url": "{{HostEndpoint}}/customers",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T16:57:00.670Z",
+    "modified": "2022-08-19T16:58:02.689Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bd8dd0ed-2bd7-4459-a7f7-75ee4246e0dd",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Get Customer",
+    "url": "{{HostEndpoint}}/customers/1",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T16:57:00.672Z",
+    "modified": "2022-08-19T17:36:42.661Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "009eae6e-6f74-46d6-963a-8967bbd90789",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Delete Customer",
+    "url": "{{HostEndpoint}}/users/5",
+    "method": "DELETE",
+    "sortNum": 17500,
+    "created": "2022-08-19T16:57:00.673Z",
+    "modified": "2022-08-19T16:57:00.673Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "19aefa95-62ad-4c25-9da0-07e846cf9a7d",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Create Customer",
+    "url": "{{HostEndpoint}}/customers",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T16:57:00.674Z",
+    "modified": "2022-08-19T18:53:26.689Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\": \"Hector\",\n  \"lastName\":\"PP\",\n  \"phone\":\"1123\",\n  \"user\": {\n    \"email\" : \"Hector@mail.com\",\n    \"password\" : \"121212\"\n  }\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "c593f588-7d5a-47ba-8c57-092fdf0e3b4d",
+    "colId": "9842e7e4-57fe-4cd2-acf2-cdd56c2596e7",
+    "containerId": "",
+    "name": "Update Customer",
+    "url": "{{HostEndpoint}}/customers/3",
+    "method": "PATCH",
+    "sortNum": 30000,
+    "created": "2022-08-19T16:57:00.675Z",
+    "modified": "2022-08-19T18:16:10.982Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"email\": \"maosa@gmail.com\"\n}",
+      "form": []
+    },
     "tests": []
   }
 ]

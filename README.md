@@ -143,4 +143,44 @@ Agregar archivo de configuracion
 
 .sequelizerc
 
+module.exports = {
+  'config': './db/config.js',
+  'models-path': './db/models',
+  'migrations-path': './db/migrations/',
+  'seeders-path': './db/seeders/',
+}
+
+
+
+
+docker-compose up -d mysql
+docker-compose up -d phpmyadmin
+
+
+Correr Migraciones
+
+Moduificar el Package.json para correr las migraciones
+
+
+    "migrations:generate": "sequelize-cli migration:generate --name",
+    "migrations:run": "sequelize-cli db:migrate",
+    "migrations:revert": "sequelize-cli db:migrate:undo",
+    "migrations:delete": "sequelize-cli db:migrate:undo:all"
+
+
+Orden de ejecucion
+
+"migrations:generate": "sequelize-cli migration:generate --name",
+
+npm run migrations:generate create-user
+
+
+npm run migrations:run
+
+
+extension util REST CLient, para utilizarlo creamos el archivo index.http
+
+dentro del file
+
+POST loca
 
