@@ -172,5 +172,85 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "cae79959-9c88-4bbc-91df-8d9994edc374",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Get Categories",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T19:52:46.978Z",
+    "modified": "2022-08-19T19:53:29.318Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "03fd2855-a020-416b-b205-ed468c9ed97e",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Create Categorie",
+    "url": "{{HostEndpoint}}/categories",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T19:53:34.436Z",
+    "modified": "2022-08-19T19:56:16.686Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"Categoria 3\",\n  \"image\":\"http://placeimg.com/640/480\"\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9e43838d-9e03-4aad-8cec-6981f1df20fa",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Create Products",
+    "url": "{{HostEndpoint}}/products",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T20:01:47.266Z",
+    "modified": "2022-08-19T20:16:11.695Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"name\":\"otraaaaaa\",\n  \"price\": 1212,\n  \"description\":\" Aasas11110\",\n  \"image\":\"http:/placeing.com/640/480\",\n  \"categoryId\": 2\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9a9af305-d02f-4c89-83c8-8bd4800a571d",
+    "colId": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "containerId": "",
+    "name": "Get Category",
+    "url": "{{HostEndpoint}}/categories/10",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T20:17:43.701Z",
+    "modified": "2022-08-19T20:27:39.418Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "89dfb624-f485-4e25-8f35-2ec5dd1056b3",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Product",
+    "url": "{{HostEndpoint}}/products/10",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T20:29:02.844Z",
+    "modified": "2022-08-19T20:29:21.434Z",
+    "headers": [],
+    "params": [],
+    "tests": []
   }
 ]

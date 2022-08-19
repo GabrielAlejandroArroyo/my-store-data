@@ -19,5 +19,19 @@
     "created": "2022-08-19T16:57:00.664Z",
     "sortNum": 15000,
     "folders": []
+  },
+  {
+    "_id": "19668fb5-dcdb-4bc8-bdf0-e0e3455cb9e6",
+    "colName": "products Copy",
+    "created": "2022-08-19T19:52:40.432Z",
+    "sortNum": 30000,
+    "folders": []
+  },
+  {
+    "_id": "16d4ee30-1db2-4c16-899c-7f14578a3d13",
+    "colName": "Categories",
+    "created": "2022-08-19T19:52:46.972Z",
+    "sortNum": 30000,
+    "folders": []
   }
 ]
