@@ -252,5 +252,71 @@
     "headers": [],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "93197a62-0e7e-4b25-a9fa-912f03981f2f",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Get Orders",
+    "url": "{{HostEndpoint}}/orders",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-19T21:06:26.251Z",
+    "modified": "2022-08-19T21:18:36.376Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f9502993-f916-4f7d-b14e-f06b5707cd0e",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Get Order",
+    "url": "{{HostEndpoint}}/orders/4",
+    "method": "GET",
+    "sortNum": 15000,
+    "created": "2022-08-19T21:06:26.252Z",
+    "modified": "2022-08-19T23:08:34.619Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "f739422d-f885-4045-b14b-8d687860078d",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Create Order",
+    "url": "{{HostEndpoint}}/orders",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-19T21:06:26.253Z",
+    "modified": "2022-08-19T21:17:20.396Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"customerId\": 1\n}\n",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "3d419006-4f32-421b-b91a-cb5d8cea270d",
+    "colId": "241f0292-b782-40ab-b085-81450b14653b",
+    "containerId": "",
+    "name": "Add Items Order",
+    "url": "{{HostEndpoint}}/orders/add-item",
+    "method": "POST",
+    "sortNum": 30000,
+    "created": "2022-08-19T23:03:24.792Z",
+    "modified": "2022-08-19T23:07:16.644Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"orderId\": 4,\n  \"productId\": 2,\n  \"amount\":3\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]
