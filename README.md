@@ -184,3 +184,4 @@ dentro del file
 
 POST loca
 
+Documentacion sqquelize
