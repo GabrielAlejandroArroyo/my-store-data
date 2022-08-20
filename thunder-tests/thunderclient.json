@@ -343,5 +343,80 @@
       }
     ],
     "tests": []
+  },
+  {
+    "_id": "aea52ac6-1ada-43b2-b8f7-8fcf3ac229c4",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products paginados por precio",
+    "url": "{{HostEndpoint}}/products?price=300",
+    "method": "GET",
+    "sortNum": 13750,
+    "created": "2022-08-19T23:54:25.622Z",
+    "modified": "2022-08-20T00:00:51.544Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "5",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price",
+        "value": "300",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "861a3cdf-6efc-49bf-b73d-25f7768f7d51",
+    "colId": "7f0316d1-128f-461b-9159-74e54ee32a81",
+    "containerId": "",
+    "name": "Get Products paginados por rango precio",
+    "url": "{{HostEndpoint}}/products?price_min=40&price_max=100",
+    "method": "GET",
+    "sortNum": 14375,
+    "created": "2022-08-20T00:13:35.509Z",
+    "modified": "2022-08-20T00:16:14.427Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "limit",
+        "value": "5",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "offset",
+        "value": "0",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price",
+        "value": "300",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "price_min",
+        "value": "40",
+        "isPath": false
+      },
+      {
+        "name": "price_max",
+        "value": "100",
+        "isPath": false
+      }
+    ],
+    "tests": []
   }
 ]
